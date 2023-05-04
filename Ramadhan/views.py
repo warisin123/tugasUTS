@@ -37,6 +37,7 @@ def deleteJADWAL_IMSAKIYAH_1444_H(request, id):
     JadwalImsak = JADWAL_IMSAKIYAH_1444_H.objects.get(pk=id)
     JadwalImsak.delete()
 
+    
     return Response('we kampret datamu iki kehapus', status=204)
 
     
